@@ -52,15 +52,15 @@ def eqParser(equationItself):
     joinMethodForReal = joinMethodForReal.replace('/', '')
     joinMethodForReal = joinMethodForReal.replace('^', '')
 		
-		print(joinMethodForReal)
+print(joinMethodForReal)
 		
-		#That is the whole function that you can copy. Edit the code however you want.
-		#There is an example below of how you could use it to make an equation parser
+#That is the whole function that you can copy. Edit the code however you want.
+#There is an example below of how you could use it to make an equation parser
 		
-		if __name__ == "__main__":
-		    while True:
-				    eq = input("Enter an equation to parse with eqParser:")
-						eqParser(eq)
+if __name__ == "__main__":
+		  while True:
+			eq = input("Enter an equation to parse with eqParser:")
+			eqParser(eq)
 						
-		#All this does is make a use of eqParser by taking user input(the equation), and then parsing that equation with eqParser.
+#All this does is make a use of eqParser by taking user input(the equation), and then parsing that equation with eqParser.
 		#Thank you for copying this code if you decide to do so.
